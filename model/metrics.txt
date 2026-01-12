@@ -1,0 +1,21 @@
+--- Financial Risk EWS Model Metrics ---
+Model: XGBoost Classifier
+Training Period: 2020-12-25 to 2024-03-01
+Testing Period: 2024-03-08 to 2024-12-20
+Precision: 0.0000
+Recall: 0.0000
+ROC-AUC: 0.8852
+
+Confusion Matrix (True vs. Predicted):
+[[28  0]
+ [14  0]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80        28
+           1       0.00      0.00      0.00        14
+
+    accuracy                           0.67        42
+   macro avg       0.33      0.50      0.40        42
+weighted avg       0.44      0.67      0.53        42

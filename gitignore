@@ -1,0 +1,39 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE-specific ignores (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Data and Model Artifacts (Generated Locally)
+# Uncomment these lines if you want Render to regenerate data and model on deploy.
+# If you want to commit pre-generated data/model, keep these commented out.
+# data/macro_financial_data.csv
+# model/xgb_model.joblib
+# model/metrics.txt
+# model/shap_summary.png
+
+# Streamlit specific ignores
+streamlit.log
+.streamlit/
+
+# Jupyter Notebook specific ignores
+.ipynb_checkpoints
+
+# Any other temporary or local files
+*.log
+*.temp
+*.tmp
